@@ -1,0 +1,67 @@
+/*han-全部改动-格式*/
+.loginForm {
+    width: 250px;
+    overflow: hidden;
+    margin-top: 50px;
+    line-height: 50px;
+    padding: 20px 100px;
+    border: 1px #dedede dashed; /* 保持原有边框样式 */
+    border-radius: 10px; /* 添加圆角 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+    background-color: transparent; /* 调整背景色 */
+    font-size: 15px; /* 维持原定的字体大小 */
+    font-weight: bold; /* 加粗字体，使标题更加突出 */
+}
+
+.loginForm h2 {
+    text-align: center;
+    font-size: 28px; /* 维持原定的字体大小 */
+    font-weight: bold; /* 加粗字体，使标题更加突出 */
+    color: #333; /* 调整字体颜色以适应背景 */
+}
+
+.loginForm form .btnLogin {
+    padding: 3px 12px;
+    margin-top: 10px;
+    background: linear-gradient(45deg, #6db3f2, #1e69de); /* 添加渐变背景 */
+    color: white; /* 改变字体颜色 */
+    border-radius: 5px; /* 添加圆角 */
+    cursor: pointer; /* 添加手型指针 */
+}
+
+ul.dirs li, .files {
+    line-height: 22px;
+    padding-left: 20px;
+    font-size: 14px; /* 轻微调整字体大小 */
+    color: #555; /* 调整字体颜色 */
+}
+
+ul.dirs li span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url("../images/icons.png") -112px 2px no-repeat;
+}
+
+.btnLink {
+    padding: 10px 15px;
+    display: inline-block;
+    text-align: center;
+    border: 1px #ccc solid; /* 保持原有边框样式 */
+    background-color: #f2f2f2;
+    transition: background-color 0.3s; /* 添加背景色过渡效果 */
+    border-radius: 5px; /* 添加圆角 */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+}
+
+.btnLink:hover {
+    background-color: #e6e6e6; /* 悬停时的背景色变化 */
+}
+input[type="input"], input[type="password"] {
+    width: 110px; /* 设置输入框的宽度 */
+    padding: 5px 10px; /* 内边距，使文本与边框有一定距离 */
+    margin: 5px 0; /* 外边距，使输入框之间有间隔 */
+    font-size: 10px; /* 文字大小 */
+    border: 1px solid #ddd; /* 边框样式 */
+    border-radius: 5px; /* 边框圆角 */
+}

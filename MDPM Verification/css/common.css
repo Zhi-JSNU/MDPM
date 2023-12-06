@@ -1,0 +1,77 @@
+/*han-全部改动-格式*/
+body, div, span, ul, li, p, dl, dt, dd, img, td, th, textarea, input, form, ol, h1, h2, h3, h4, h5, h6 {
+	margin: 0 auto;
+	padding: 0;
+	font-family: "Roboto", "Arial", sans-serif; /* 现代化字体 */
+	font-size: 14px; /* 轻微调整字体大小 */
+	/*color: #555; /* 调整字体颜色 */
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+p {
+	line-height: 1.6;
+	margin-bottom: 10px;
+	font-size: 14px; /* 轻微调整字体大小 */
+	c/*olor: #555; /* 调整字体颜色 */
+}
+
+img {
+	border: 0;
+	max-width: 100%; /* 响应式图像 */
+}
+
+ul, li, ol {
+	list-style: none;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* 链接样式 */
+a {
+	color: #007bff; /* 基本链接颜色 */
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #0056b3; /* 悬停和激活状态颜色 */
+	text-decoration: underline; /* 添加下划线以提高可见性 */
+	transition: color 0.3s ease; /* 平滑颜色过渡 */
+}
+
+/* 响应式布局调整 */
+@media screen and (max-width: 768px) {
+	body {
+		padding: 0 10px; /* 小屏幕填充 */
+	}
+	h1 {
+		font-size: 24px; /* 调整标题大小 */
+	}
+}
+.custom-button {
+	text-align: center;
+	width: 70px;
+	height: 40px; /* 设置按钮高度 */
+	line-height: 40px; /* 确保文本垂直居中 */
+	padding: 0 10px; /* 调整左右填充，保持文本不会挨着按钮边缘 */
+	margin: 0 26px; /* 统一间距 */
+	border: none; /* 移除边框 */
+	background-color: #007bff; /* 设置背景颜色 */
+	color: white; /* 设置文字颜色 */
+	border-radius: 5px; /* 添加圆角 */
+	font-family: "Arial", sans-serif; /* 设置字体 */
+	cursor: pointer; /* 鼠标悬停时显示指针 */
+	transition: background-color 0.3s ease; /* 平滑背景颜色变化效果 */
+	vertical-align: middle; /* 垂直对齐 */
+}
+
+.custom-button:hover {
+	background-color: #0056b3; /* 悬停时的背景颜色 */
+}
