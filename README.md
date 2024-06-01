@@ -42,9 +42,29 @@ MDPM (Metadata Protection Model) is a secure communication framework designed fo
 ## Usage
 
 1. **Creating the Root CMI.**
-   Run the makeRoot.php
+
    ```bash
+   Run the makeRoot.php
    php makeRoot.php
+
+2. **Key Generation**
+
+   ```bash
+   Generate keys using keygen.php:
+   php keygen.php
+
+3. **Upload metadata**
+
+   ```bash
+   Use userUploadFile.php to upload metadata to the CMI:
+   php userUploadFile.php
+
+4. **Retrieve metadata**
+
+   ```bash
+   Retrieve metadata within the CMI using searchFile2.php:
+
+
 
 
    
