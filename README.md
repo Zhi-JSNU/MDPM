@@ -63,8 +63,3 @@ MDPM (Metadata Protection Model) is a secure communication framework designed fo
 
    ```bash
    Retrieve metadata within the CMI using searchFile2.php:
-
-
-
-
-   
