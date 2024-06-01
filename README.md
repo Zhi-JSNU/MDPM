@@ -2,7 +2,7 @@
 
 ## Overview
 
-MDPM (Metadata Protection Model) is a secure communication framework designed for Intelligent Transportation Systems (ITS). It integrates the Communication Metadata Index (CMI) for efficient data transmission and sharing, leveraging attribute-based security mechanisms. Additionally, it incorporates Chaskey Software-Masking (CSM) for enhanced protection against side-channel attacks. The framework is structured to ensure security, speed, granularity, and low latency in data communication processes.
+MDPM (Metadata Protection Model) is a secure communication framework designed for Intelligent Transportation Systems (ITS). It integrates the Ciphertex Mapping Index (CMI) for efficient data transmission and sharing, leveraging attribute-based security mechanisms. Additionally, it incorporates Chaskey Software-Masking (CSM) for enhanced protection against side-channel attacks. The framework is structured to ensure security, speed, granularity, and low latency in data communication processes.
 
 ## Features
 
@@ -29,3 +29,4 @@ MDPM (Metadata Protection Model) is a secure communication framework designed fo
    ```bash
    git clone [repository URL]
    cd MDPM-main
+   
