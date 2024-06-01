@@ -21,7 +21,7 @@ Installation
 Clone the repository:
 
 bash
-复制代码
+
 git clone [repository URL]
 cd MDPM-main
 Set up your PHP environment:
@@ -31,33 +31,33 @@ Create the root CMI:
 Run makeRoot.php to initialize the root CMI structure.
 
 bash
-复制代码
+
 php makeRoot.php
 Usage
 Creating the Root CMI
 Run the root creation script:
 bash
-复制代码
+
 php makeRoot.php
 Key Generation
 Generate keys using keygen.php:
 bash
-复制代码
+
 php keygen.php
 Uploading Files
 Use userUploadFile.php to upload files to the CMI:
 bash
-复制代码
+
 php userUploadFile.php
 Searching Files
 Search files within the CMI using searchFile2.php:
 bash
-复制代码
+
 php searchFile2.php
 Downloading Files
 Download files using download.php:
 bash
-复制代码
+
 php download.php
 Security Features
 Random Insertion (RI) and Uniform Distribution Insertion (UDI)
