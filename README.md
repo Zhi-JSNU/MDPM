@@ -95,5 +95,5 @@ Future research will focus on integrating AI technologies within the MDPM framew
 Contact
 For any queries or further information, please contact:
 
-[Qiang Zhi]
-[zhiqiang0728(gmail)]
+[Qiang Zhi] [zhiqiang0728(gmail)]
+[Dongyi Han] [jshanxiaomi@163.com]
