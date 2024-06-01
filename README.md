@@ -16,11 +16,11 @@ MDPM (Metadata Protection Model) is a secure communication framework designed fo
 - **makeRoot.php**: Script to create the root CMI.
 - **function.php**: Contains the main functions for CMI and MDPM operations.
 - **keygen.php**: Script for key generation and distribution.
-- **download.php**: Handles file download operations.
-- **fm.php**: File management functions.
+- **download.php**: Handles CMI download operations.
+- **fm.php**: Metadata management functions.
 - **searchFile2.php**: Handles search functionality within the CMI.
 - **tree.php**: Manages the tree structure of the CMI.
-- **userUploadFile.php**: Handles file upload operations.
+- **userUploadFile.php**: Handles CMI upload operations.
 - **createLst.php**: Script to create list structures for metadata management.
 
 ## Installation
