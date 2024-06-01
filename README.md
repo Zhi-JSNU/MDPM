@@ -39,7 +39,7 @@ MDPM (Metadata Protection Model) is a secure communication framework designed fo
    php makeRoot.phpUsage
 ## Usage
    Creating the Root CMI
-   Run the root creation script
+   Run the makeRoot.php
    ```bash
    php makeRoot.php
 
