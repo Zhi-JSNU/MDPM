@@ -31,12 +31,14 @@ MDPM (Metadata Protection Model) is a secure communication framework designed fo
    cd MDPM-main
 
 2. **Set up your PHP environment**:
-   Ensure you have a working PHP environment. You can use XAMPP, WAMP, or any other PHP server.
+   
    ```bash
+   Ensure you have a working PHP environment. You can use XAMPP, WAMP, or any other PHP server.
 3. **SCreate the root CMI**:
    Run makeRoot.php to initialize the root CMI structure.
    ```bash
    php makeRoot.phpUsage
+
 ## Usage
 
 1. **Creating the Root CMI.**
